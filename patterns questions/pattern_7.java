@@ -17,6 +17,6 @@ public class pattern_7 {
             System.out.println();
             i++;
         }
-
+        sc.close();
     }
 }

@@ -16,6 +16,6 @@ public class pattern_8 {
            System.out.println();
            i++;
         }
-
+        sc.close();
     }
 }
