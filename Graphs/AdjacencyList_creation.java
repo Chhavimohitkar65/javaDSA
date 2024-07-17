@@ -13,7 +13,7 @@ public class AdjacencyList_creation {
             this.dest = d;
             this.wt = w;
 
-        }
+        }     
     }
     public static void main (String args[]){
 
