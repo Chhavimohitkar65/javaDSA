@@ -58,7 +58,7 @@ public class deletion {
     }
 
     Node currentNode = head;
-    while(currentNode.next !=tail) {
+    while(currentNode.next != tail) {
         //traverse to the second last node
         currentNode = currentNode.next;
     }
