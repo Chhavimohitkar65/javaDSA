@@ -1,5 +1,5 @@
 package Linkedlist;
-
+//CREATION USING HEAD 
 import arrayssss.print;
 
 class Node{
