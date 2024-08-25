@@ -35,7 +35,7 @@ public class instertAtPosition {
     public void addAtPosition(int data, int position) {
 
         Node newNode = new Node(data); // create a new node
-
+//if it was at the start
         if (position == 0) {
             newNode.next = head;
             head = newNode;
@@ -44,12 +44,12 @@ public class instertAtPosition {
             }
             return;
         }
-
+// if it was not start we start to traversal
         Node currentNode = head;
         for (int i = 0; i < position - 1 && currentNode != null; i++) {
             currentNode = currentNode.next;
         }
-
+//for out of bond positions
         if (currentNode != null) {
             newNode.next = currentNode.next;
             currentNode.next = newNode;
