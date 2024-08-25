@@ -137,11 +137,6 @@ public class deletion {
         list.printList();
 
         list.deleteFromPostion(10);
-        
-
-
-
-
     }
     
 }
